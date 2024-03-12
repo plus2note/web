@@ -1,0 +1,173 @@
+/* Reset Styles */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+   background: #333;
+   color: #fff;
+   padding: 20px 0;
+}
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+header h1.page-title a {
+   text-decoration: none;
+   color: #fff;
+}
+nav ul {
+   list-style: none;
+}
+
+nav ul li {
+   display: inline;
+}
+
+nav ul li a {
+   color: #fff;
+   text-decoration: none;
+   padding: 0 10px;
+   font-weight: 300;
+}
+
+/* Hero Section Styles */
+#hero {
+   background: #f4f4f4;
+   text-align: center;
+   padding: 100px 0;
+}
+
+#hero h2 {
+   font-size: 36px;
+   margin-bottom: 20px;
+}
+
+.btn {
+   display: inline-block;
+   background: #333;
+   color: #fff;
+   padding: 10px 20px;
+   text-decoration: none;
+   border-radius: 5px;
+}
+
+.btn:hover {
+   background: #555;
+   color: #fff;
+}
+
+/* Other Section Styles (About, Services, Pricing, Contact Us) */
+
+section {
+   padding: 80px 0;
+}
+
+section h2 {
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+
+section p {
+   margin-bottom: 20px;
+}
+
+.service {
+   margin-bottom: 40px;
+}
+
+.service h3 {
+   font-size: 24px;
+   margin-bottom: 10px;
+}
+
+.service p {
+   margin-bottom: 20px;
+}
+
+.pricing-card {
+   display: flex;
+   justify-content: center;
+   align-items: stretch;
+}
+
+.pricing-plan {
+   flex: 1;
+   background: #f9f9f9;
+   border-radius: 5px;
+   padding: 20px;
+   margin: 0 10px;
+   text-align: center;
+}
+
+.pricing-plan h3 {
+   font-size: 24px;
+   margin-bottom: 10px;
+}
+
+.pricing-plan p {
+   font-size: 18px;
+   margin-bottom: 20px;
+}
+
+.pricing-plan ul {
+   text-align: left;
+   margin-bottom: 20px;
+}
+
+.pricing-plan ul li {
+   margin-bottom: 10px;
+}
+.contact-form {
+   display: flex;
+   flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+   margin-bottom: 20px;
+   padding: 10px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+}
+
+.contact-form button {
+   background: #333;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.contact-form button:hover {
+   background: #555;
+}
+
+/* Footer Styles */
+footer {
+   background: #333;
+   color: #fff;
+   text-align: center;
+   padding: 20px 0;
+}
+
+footer p {
+   font-size: 14px;
+}
