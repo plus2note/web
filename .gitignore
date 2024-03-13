@@ -1,0 +1,5 @@
+# Ignore Visual Studio Code settings folder
+.vscode/
+
+# Ignore GitHub issue template file
+.github/ISSUE_TEMPLATE
