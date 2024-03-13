@@ -40,7 +40,11 @@
       <!-- Add canonical URL to avoid duplicate content issues -->
       <link rel="canonical" href="http://www.yourwebsite.com" />
       <!-- Add favicon -->
-      <link rel="icon" type="image/png" href="favicon.png" />
+      <link
+         rel="icon"
+         type="image/png"
+         href="./assets/img/plus2note-logo.jpeg"
+      />
       <!-- Add stylesheets and other scripts -->
       <link rel="stylesheet" href="./assets/css/styles.css" />
    </head>
@@ -72,48 +76,73 @@
       <!-- About Us Section -->
       <section id="about">
          <div class="container">
-            <h2>About Us</h2>
-            <p>
-               Plus2Note is dedicated to providing comprehensive study notes,
-               exam preparation materials, and revision guides for students in
-               their final year of high school.
-            </p>
-            <p>
-               Our mission is to empower students to achieve their academic
-               goals by providing them with high-quality resources and support.
-            </p>
-            <p>
-               At Plus2Note, we believe that every student deserves access to
-               the best educational materials to help them succeed.
-            </p>
+            <div class="about">
+               <div class="about-image">
+                  <img src="./assets/img/intro-img.png" alt="About Us Image" />
+               </div>
+               <div class="about-content">
+                  <h2>About Us</h2>
+                  <p>
+                     Welcome to <strong>Your Website Name</strong>, where we're
+                     passionate about
+                     <strong>Your Website's Purpose or Mission</strong>. Get to
+                     know more about us below:
+                  </p>
+                  <p>
+                     Plus2Note is dedicated to providing comprehensive study
+                     notes, exam preparation materials, and revision guides for
+                     students in their final year of high school.
+                  </p>
+                  <p>
+                     Our mission is to empower students to achieve their
+                     academic goals by providing them with high-quality
+                     resources and support.
+                  </p>
+                  <p>
+                     At Plus2Note, we believe that every student deserves access
+                     to the best educational materials to help them succeed.
+                  </p>
+               </div>
+            </div>
          </div>
       </section>
 
       <!-- Our Services Section -->
-      <section id="services">
+      <section class="services">
          <div class="container">
             <h2>Our Services</h2>
-            <div class="service">
-               <h3>Comprehensive Study Notes</h3>
-               <p>
-                  Get access to detailed study notes covering all subjects
-                  taught in the final year of high school curriculum.
-               </p>
-            </div>
-            <div class="service">
-               <h3>Exam Preparation Materials</h3>
-               <p>
-                  Prepare for exams with our comprehensive collection of exam
-                  preparation materials, including practice tests and sample
-                  questions.
-               </p>
-            </div>
-            <div class="service">
-               <h3>Revision Guides</h3>
-               <p>
-                  Use our revision guides to review key concepts and topics,
-                  ensuring that you're fully prepared for your exams.
-               </p>
+            <div class="service-container">
+               <div class="service">
+                  <img
+                     src="./assets/img/service1.png"
+                     alt="Comprehensive Study Notes"
+                  />
+                  <h3>Comprehensive Study Notes</h3>
+                  <p>
+                     Get access to detailed study notes covering all subjects
+                     taught in the final year of high school curriculum.
+                  </p>
+               </div>
+               <div class="service">
+                  <img
+                     src="./assets/img/service2.png"
+                     alt="Exam Preparation Materials"
+                  />
+                  <h3>Exam Preparation Materials</h3>
+                  <p>
+                     Prepare for exams with our comprehensive collection of exam
+                     preparation materials, including practice tests and sample
+                     questions.
+                  </p>
+               </div>
+               <div class="service">
+                  <img src="./assets/img/service3.png" alt="Revision Guides" />
+                  <h3>Revision Guides</h3>
+                  <p>
+                     Use our revision guides to review key concepts and topics,
+                     ensuring that you're fully prepared for your exams.
+                  </p>
+               </div>
             </div>
          </div>
       </section>
@@ -160,31 +189,33 @@
       <!-- Contact Us Section -->
       <section id="contact">
          <div class="container">
-            <h2>Contact Us</h2>
-            <p>
-               Have a question or inquiry? Feel free to get in touch with us
-               using the contact form below:
-            </p>
-            <form action="#" method="post" class="contact-form">
-               <input
-                  type="text"
-                  name="name"
-                  placeholder="Your Name"
-                  required
-               />
-               <input
-                  type="email"
-                  name="email"
-                  placeholder="Your Email"
-                  required
-               />
-               <textarea
-                  name="message"
-                  placeholder="Your Message"
-                  required
-               ></textarea>
-               <button type="submit" class="btn">Send Message</button>
-            </form>
+            <div class="contact">
+               <h2>Contact Us</h2>
+               <p>
+                  Have a question or inquiry? Feel free to get in touch with us
+                  using the contact form below:
+               </p>
+               <form action="#" method="post" class="contact-form">
+                  <input
+                     type="text"
+                     name="name"
+                     placeholder="Your Name"
+                     required
+                  />
+                  <input
+                     type="email"
+                     name="email"
+                     placeholder="Your Email"
+                     required
+                  />
+                  <textarea
+                     name="message"
+                     placeholder="Your Message"
+                     required
+                  ></textarea>
+                  <button type="submit" class="btn">Send Message</button>
+               </form>
+            </div>
          </div>
       </section>
       <!-- Footer Section -->
