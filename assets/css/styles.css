@@ -19,8 +19,8 @@ body {
 
 /* Header Styles */
 header {
-   background: #333;
-   color: #fff;
+   background: #f4f4f4;
+   color: #282828;
    padding: 20px 0;
 }
 .header {
@@ -30,7 +30,7 @@ header {
 }
 header h1.page-title a {
    text-decoration: none;
-   color: #fff;
+   color: #282828;
 }
 nav ul {
    list-style: none;
@@ -41,7 +41,7 @@ nav ul li {
 }
 
 nav ul li a {
-   color: #fff;
+   color: #282828;
    text-decoration: none;
    padding: 0 10px;
    font-weight: 300;
@@ -51,7 +51,7 @@ nav ul li a {
 #hero {
    background: #f4f4f4;
    text-align: center;
-   padding: 100px 0;
+   padding: 150px 0;
 }
 
 #hero h2 {
@@ -88,6 +88,95 @@ section p {
    margin-bottom: 20px;
 }
 
+/* about */
+.about {
+   display: flex;
+}
+.about-image {
+   flex: 1;
+}
+
+.about-image img {
+   max-width: 100%;
+   height: auto;
+}
+.about-content {
+   max-width: 600px;
+}
+
+.about-content h2 {
+   font-size: 36px;
+   margin-top: 100px;
+   margin-bottom: 20px;
+}
+
+.about-content h3 {
+   font-size: 24px;
+   margin-top: 30px;
+}
+
+.about-content p {
+   margin-bottom: 20px;
+}
+/* service */
+.services {
+   padding: 50px 0;
+   background-color: #f9f9f9;
+}
+
+.services .container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.service-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.services h2 {
+   font-size: 36px;
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.service {
+   flex: 0 0 calc(33.33% - 40px);
+   margin: 20px;
+   text-align: center;
+   background-color: #fff;
+   border-radius: 10px;
+   overflow: hidden;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease;
+}
+
+.service:hover {
+   transform: translateY(-5px);
+}
+
+.service img {
+   width: 100%;
+   width: 100px;
+   height: 100px;
+   margin-top: 30px;
+   height: auto;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+.service h3 {
+   font-size: 24px;
+   margin: 20px 0;
+}
+
+.service p {
+   font-size: 16px;
+   color: #666;
+   padding: 0 20px;
+   margin-bottom: 20px;
+}
+
+/* end */
 .service {
    margin-bottom: 40px;
 }
@@ -101,6 +190,12 @@ section p {
    margin-bottom: 20px;
 }
 
+/* pricing */
+#pricing h2 {
+   font-size: 36px;
+   text-align: center;
+   margin-bottom: 50px;
+}
 .pricing-card {
    display: flex;
    justify-content: center;
@@ -114,6 +209,8 @@ section p {
    padding: 20px;
    margin: 0 10px;
    text-align: center;
+   padding-bottom: 60px;
+   padding-top: 60px;
 }
 
 .pricing-plan h3 {
@@ -123,16 +220,43 @@ section p {
 
 .pricing-plan p {
    font-size: 18px;
-   margin-bottom: 20px;
+   margin-bottom: 30px;
 }
 
 .pricing-plan ul {
    text-align: left;
-   margin-bottom: 20px;
+   margin-bottom: 30px;
 }
 
 .pricing-plan ul li {
    margin-bottom: 10px;
+   margin-left: 20px;
+   position: relative;
+   padding-left: 25px;
+   margin-bottom: 10px;
+   line-height: 1.5;
+   list-style: none;
+}
+.pricing-plan ul li::before {
+   content: "\2713"; /* Unicode character for checkmark */
+   font-size: 18px;
+   color: #4caf50; /* Green color for the checkmark */
+   position: absolute;
+   left: 0;
+   top: 0;
+}
+
+/* contact */
+#contact {
+   text-align: center;
+}
+.contact {
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   max-width: 600px;
+   margin: 0 auto;
 }
 .contact-form {
    display: flex;
@@ -141,8 +265,8 @@ section p {
 
 .contact-form input,
 .contact-form textarea {
-   margin-bottom: 20px;
-   padding: 10px;
+   margin-bottom: 25px;
+   padding: 12px;
    border-radius: 5px;
    border: 1px solid #ccc;
 }
