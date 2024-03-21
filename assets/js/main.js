@@ -1,0 +1,1 @@
+console.log("Welcome to the Plus2note !")
