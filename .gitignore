@@ -1,5 +1,45 @@
-# Ignore Visual Studio Code settings folder
-.vscode/
+# Ignore WordPress core files
+wp-admin/
+wp-includes/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/backup-dbs/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/plugins/
+wp-content/themes/
 
-# Ignore GitHub issue template file
-.github/ISSUE_TEMPLATE
+# Ignore WordPress configuration files
+wp-config.php
+wp-config-sample.php
+
+# Ignore WordPress database dump files
+*.sql
+
+# Ignore logs and temporary files
+*.log
+*.bak
+*.tmp
+
+# Ignore development files
+.htaccess
+error_log
+php_errorlog
+error_log.html
+error_log.txt
+
+# Ignore various project files
+*.sublime-project
+*.sublime-workspace
+Thumbs.db
+.DS_Store
+.svn/
+
+# Ignore package manager files
+npm-debug.log
+yarn-error.log
+
+# Ignore miscellaneous files
+*.idea/
+*.DS_Store
